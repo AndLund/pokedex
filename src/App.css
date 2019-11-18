@@ -1,0 +1,81 @@
+body {
+	/* background-color: rgb(50, 222, 228); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: justify;
+	background-image: url(https://www.hypeness.com.br/wp-content/uploads/2019/05/ce%CC%81rebro-fa%CC%83s-pokemon-1.jpg);
+	background-repeat: no-repeat;
+	background-size: 125% 125%;
+	box-sizing: border-box;
+}
+
+.descricion {
+	border-top-style: solid;
+	border-top-color: gray;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	padding: 10px 0 10px 0;
+	border-radius: 3%;
+}
+
+.separar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.botoes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 40px;
+	border-bottom: 40px;
+	border-left: 65px;
+	border-right: 65px;
+	border-style: solid;
+	border-color: rgb(184, 0, 0);
+	border-radius: 5%;
+}
+
+.card-img-top {
+	outline: 1px 1px 1px 1px black;
+}
+
+.card-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+.fundoImagem {
+	padding: 25px;
+	background: rgba(81, 88, 88, 0.4);
+	border-radius: 50%;
+	min-width: 300px;
+}
+
+.navbar,
+.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(184, 0, 0);
+	color: white;
+	font-weight: bold;
+	border-radius: 5%;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+}
+
+#primeiraLetra::first-letter {
+	text-transform: uppercase;
+}
